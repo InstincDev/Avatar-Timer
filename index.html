@@ -1,0 +1,65 @@
+<!-- This a text to speech timer created using only basic HTML CSS and JS functions.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Avatar Timer</title>
+  </head>
+  <body>
+
+    <span id="avatarframe"><img src="female_img.jpg" alt="Photo by Christopher Campbell on Unsplash" width="400px" height="400px"></span>
+
+    <!-- Welcome screen -->
+    <span id="welcome">
+      <span id = "ttlhead">
+        <h2>Welcome to the </h2>
+        <h1>Avatar Timer!</h1>
+      </span>
+      <span>
+        <p>Please enter you name.</p>
+      </span>
+      <span>
+        <input type="text" name="name" id="name" />
+        <input type="button" id="btnsubmit" value="Enter"/>
+      </span>
+    </span>
+
+    <!-- Timer Form -->
+    <div id="timerForm">
+      <div><h1 id="hello"></h1></div>
+      <div>
+        <h2>How long do you need? (in minutes):</h2>
+      </div>
+      <div>
+        <input type="number" min="1" name="timerTime" id="timerTime" />
+      </div>
+      <div>
+        <h2>TO DO (optional):</h2>
+        <input type="text" name="todo" id="todo" />
+      </div>
+      <div>
+        <input type="button" value="Enter" id="formbtn" />
+      </div>
+    </div>
+
+    <!-- Timer -->
+    <div id="timer">
+      <div>
+        <h1>Avatar Timer</h1>
+      </div>
+      <div>
+        <h2>Time Left...</h2>
+        <h1 id="ttltimer"></h1>
+      </div>
+      <div>
+        <input type="button" value="End" id="endbtn">
+      </div>
+    </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
