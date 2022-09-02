@@ -7,6 +7,8 @@
 
 <img width="400" src='https://user-images.githubusercontent.com/67307808/168954220-b448dc10-07b6-4960-a0f6-7fdf694fe592.gif'/>
 
+ https://avatar-timer.netlify.app
+ 
  This timer exhibits the ability to create a simple yet functioning virtual assistant.
 
 * The avatar timer greets the user and then asks for their name.
